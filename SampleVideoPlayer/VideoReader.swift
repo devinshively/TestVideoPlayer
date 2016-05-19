@@ -1,10 +1,8 @@
 import AVFoundation
 
 class VideoReader: NSObject {
-  private let singleFrameInterval: NSTimeInterval = 0.02
   private var videoOutput: AVPlayerItemVideoOutput!
   private var playerItem: AVPlayerItem!
-  private var videoOutputQueue: dispatch_queue_t!
   
   init(playerItem: AVPlayerItem) {
     self.playerItem = playerItem
