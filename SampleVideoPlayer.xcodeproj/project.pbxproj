@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		C0B34CEE1CED418300666C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34CED1CED418300666C29 /* AppDelegate.swift */; };
-		C0B34CF01CED418300666C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34CEF1CED418300666C29 /* ViewController.swift */; };
 		C0B34CF31CED418300666C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B34CF11CED418300666C29 /* Main.storyboard */; };
 		C0B34CF51CED418300666C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B34CF41CED418300666C29 /* Assets.xcassets */; };
 		C0B34CF81CED418300666C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B34CF61CED418300666C29 /* LaunchScreen.storyboard */; };
+		C0B34D041CED41C700666C29 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34CFF1CED41C700666C29 /* Camera.swift */; };
+		C0B34D051CED41C700666C29 /* Skysphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34D001CED41C700666C29 /* Skysphere.swift */; };
+		C0B34D061CED41C700666C29 /* Video360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34D011CED41C700666C29 /* Video360View.swift */; };
+		C0B34D071CED41C700666C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34D021CED41C700666C29 /* ViewController.swift */; };
+		C0B34D081CED41C700666C29 /* VideoReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B34D031CED41C700666C29 /* VideoReader.swift */; };
+		C0B34D0C1CED756C00666C29 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B34D0B1CED756C00666C29 /* GLKit.framework */; };
+		C0B34D0E1CEE1E8E00666C29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B34D0D1CEE1E8E00666C29 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0B34CEA1CED418300666C29 /* SampleVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B34CED1CED418300666C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0B34CEF1CED418300666C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0B34CF21CED418300666C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0B34CF41CED418300666C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B34CF71CED418300666C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B34CF91CED418300666C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B34CFF1CED41C700666C29 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		C0B34D001CED41C700666C29 /* Skysphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skysphere.swift; sourceTree = "<group>"; };
+		C0B34D011CED41C700666C29 /* Video360View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video360View.swift; sourceTree = "<group>"; };
+		C0B34D021CED41C700666C29 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B34D031CED41C700666C29 /* VideoReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoReader.swift; sourceTree = "<group>"; };
+		C0B34D091CED756500666C29 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C0B34D0B1CED756C00666C29 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C0B34D0D1CEE1E8E00666C29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B34D0E1CEE1E8E00666C29 /* AVFoundation.framework in Frameworks */,
+				C0B34D0C1CED756C00666C29 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +53,9 @@
 		C0B34CE11CED418300666C29 = {
 			isa = PBXGroup;
 			children = (
+				C0B34D0D1CEE1E8E00666C29 /* AVFoundation.framework */,
+				C0B34D0B1CED756C00666C29 /* GLKit.framework */,
+				C0B34D091CED756500666C29 /* AVKit.framework */,
 				C0B34CEC1CED418300666C29 /* SampleVideoPlayer */,
 				C0B34CEB1CED418300666C29 /* Products */,
 			);
@@ -55,7 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				C0B34CED1CED418300666C29 /* AppDelegate.swift */,
-				C0B34CEF1CED418300666C29 /* ViewController.swift */,
+				C0B34CFF1CED41C700666C29 /* Camera.swift */,
+				C0B34D001CED41C700666C29 /* Skysphere.swift */,
+				C0B34D011CED41C700666C29 /* Video360View.swift */,
+				C0B34D021CED41C700666C29 /* ViewController.swift */,
+				C0B34D031CED41C700666C29 /* VideoReader.swift */,
 				C0B34CF11CED418300666C29 /* Main.storyboard */,
 				C0B34CF41CED418300666C29 /* Assets.xcassets */,
 				C0B34CF61CED418300666C29 /* LaunchScreen.storyboard */,
@@ -135,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B34CF01CED418300666C29 /* ViewController.swift in Sources */,
+				C0B34D071CED41C700666C29 /* ViewController.swift in Sources */,
+				C0B34D061CED41C700666C29 /* Video360View.swift in Sources */,
+				C0B34D051CED41C700666C29 /* Skysphere.swift in Sources */,
 				C0B34CEE1CED418300666C29 /* AppDelegate.swift in Sources */,
+				C0B34D041CED41C700666C29 /* Camera.swift in Sources */,
+				C0B34D081CED41C700666C29 /* VideoReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinshively.SampleVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinshively.SampleVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
