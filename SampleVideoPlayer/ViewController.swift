@@ -61,7 +61,7 @@ class ViewController: UIViewController {
   
   func setupContext() {
     // Want to use OpenGL ES 2.0 for wider device support
-    context = EAGLContext(API: .OpenGLES3) // .OpenGLES2
+    context = EAGLContext(API: .OpenGLES2) // .OpenGLES2
     EAGLContext.setCurrentContext(context)
     guard let context = context else { return }
     video360View?.context = context

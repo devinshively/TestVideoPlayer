@@ -8,7 +8,9 @@ class VideoReader: NSObject {
     self.playerItem = playerItem
     super.init()
 
-    let pixelBufferAttributes = [kCVPixelBufferPixelFormatTypeKey as String : NSNumber(unsignedInt: kCVPixelFormatType_32BGRA)]
+    let pixelBufferAttributes = [kCVPixelBufferPixelFormatTypeKey as String : NSNumber(unsignedInt: kCVPixelFormatType_32BGRA),
+                                           kCVPixelBufferWidthKey as String : 1024,
+                                          kCVPixelBufferHeightKey as String : 512]
     videoOutput = AVPlayerItemVideoOutput(pixelBufferAttributes: pixelBufferAttributes)
     playerItem.addOutput(videoOutput)
   }
